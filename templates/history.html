@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Prompt History</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; }
+    .prompt-box { margin-bottom: 15px; padding: 10px; background: #f4f4f4; border-left: 4px solid #333; }
+  </style>
+</head>
+<body>
+  <h2>📜 Your Prompt History</h2>
+  {% if history %}
+    {% for item in history %}
+      <div class="prompt-box">
+        <strong>{{ item.date }}</strong><br>
+        {{ item.prompt }}
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No prompt history yet.</p>
+  {% endif %}
+  <br>
+  <a href="/">⬅️ Back to Bot</a>
+</body>
+</html>
