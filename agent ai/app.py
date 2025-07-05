@@ -5,7 +5,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-OPENROUTER_API_KEY = "Bearer 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"
+OPENROUTER_API_KEY = "Bearer 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"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 USER_FILE = "users.json"
 PROMPT_HISTORY_FILE = "prompts.json"

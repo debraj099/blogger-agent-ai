@@ -1,0 +1,11 @@
+{
+  "127.0.0.1": {
+    "step": "done",
+    "niches": [
+      "poetry"
+    ],
+    "niche_index": 0,
+    "tone": "formal",
+    "length": "one-liner"
+  }
+}
